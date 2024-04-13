@@ -20,7 +20,7 @@ while time.time() < end_time:
     views = project.views
     
     if last_stats == (views, loves, faves):
-        #continue
+        pass#continue
     
     last_stats = (views, loves, faves)
     
